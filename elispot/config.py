@@ -1,0 +1,4 @@
+# elispot config
+
+input = PATH
+
