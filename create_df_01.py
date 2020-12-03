@@ -32,7 +32,7 @@ def manifest_reader(fname):
 
 def igs1_reader(fname):
     '''Read IGS1 file'''
-    cd3 = pd.read_csv(path + fname, index_col=False, infer_datetime_format=['Sample.Date'])
+    cd3 = pd.read_csv(fname, index_col=False, infer_datetime_format=['Sample.Date'])
 
     # check that only one col has your stimulus
     assert(len(cd3.columns[cd3.isin(['a-CD3']).sum() > 0]) == 1)
