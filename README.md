@@ -7,7 +7,7 @@ This repository in python3 contains scripts to investigate the role of two facto
 
 1. Data preprocessing and joining with create_df_01.py
 
-User provides the file names in < >
+...User provides the file names in < >
 
 ```
 python3 create_df_01.py <samples_1> <samples_2> <assay_results> <output_file>
