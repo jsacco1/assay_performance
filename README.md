@@ -1,4 +1,4 @@
-# Immune assay performance performance
+# Immune assay performance
 
 ## Description
 This repository in python3 contains scripts to investigate the role of two factors, ambient shipment temperature and turn-around time (TAT), on immune assay performance, as measured in mean spot count for anti-CD3 positive control.
