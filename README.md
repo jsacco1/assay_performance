@@ -5,6 +5,8 @@ This repository in python3 contains scripts to investigate the role of two facto
 
 ## Usage
 
+1. Data preprocessing and joining with create_df_01.py
+
 User provides the file names in < >
 
 ```
